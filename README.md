@@ -14,7 +14,8 @@ Use responsibly.
 
 - Choose password length
 - Optionally include uppercase, lowercase, numbers, and special characters
-- Ensures at least 2 numbers and 2 special characters if selected
+- Ensures at least 2 numbers and 2 special characters if selected, increasing the minimum with password length when possible
+- Regenerates passwords containing adjacent repeated characters before displaying them
 - Uses `SecureRandom` for cryptographically secure password generation
 
 ## Usage
